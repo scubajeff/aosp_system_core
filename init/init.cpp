@@ -340,7 +340,7 @@ static int set_mmap_rnd_bits_action(const std::vector<std::string>& args)
 #endif
     if (ret == -1) {
         ERROR("Unable to set adequate mmap entropy value!\n");
-        security_failure();
+        //security_failure();
     }
     return ret;
 }
