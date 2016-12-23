@@ -58,6 +58,8 @@ typedef enum android_pixel_format {
     HAL_PIXEL_FORMAT_RGB_888            = 3,
     HAL_PIXEL_FORMAT_RGB_565            = 4,
     HAL_PIXEL_FORMAT_BGRA_8888          = 5,
+    HAL_PIXEL_FORMAT_RGBA_5551          = 6,
+    HAL_PIXEL_FORMAT_RGBA_4444          = 7,
 
     /*
      * 0x100 - 0x1FF
@@ -190,6 +192,8 @@ typedef enum android_pixel_format {
      * extra metadata to define.
      */
     HAL_PIXEL_FORMAT_RAW16 = 0x20,
+	//Readded, needed by exynos
+    HAL_PIXEL_FORMAT_RAW_SENSOR = 0x20, // TODO(rubenbrunk): Remove RAW_SENSOR.
 
     /*
      * Android RAW10 format:
