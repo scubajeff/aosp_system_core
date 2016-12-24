@@ -40,10 +40,6 @@
 #include <cutils/properties.h>
 #include <logwrap/logwrap.h>
 
-#include "mincrypt/rsa.h"
-#include "mincrypt/sha.h"
-#include "mincrypt/sha256.h"
-
 #include "ext4_utils.h"
 #include "wipe.h"
 
